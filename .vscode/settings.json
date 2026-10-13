@@ -22,7 +22,7 @@
       "port": 5432,
       "driver": "PostgreSQL",
       "name": "postgres1",
-      "database": "sales_db",
+      "database": "relations_db",
       "username": "postgres"
     }
   ]
