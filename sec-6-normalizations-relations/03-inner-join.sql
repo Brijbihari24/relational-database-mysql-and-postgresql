@@ -1,3 +1,4 @@
+USE relations_db;
 SELECT *
 FROM users
     INNER JOIN addresses ON users.address_id = addresses.id;
@@ -21,3 +22,5 @@ SELECT u.id,
 FROM users AS u
     INNER JOIN addresses AS a ON u.address_id = a.id
     INNER JOIN cities AS c ON a.city_id = c.id;
+SELECT *
+FROM users INNER JOINS addresses ON users.address_id = addresses.id;
